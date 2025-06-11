@@ -1,13 +1,13 @@
-const CACHE_NAME = 'vm-digital-v1';
+const CACHE_NAME = 'vm-digital-v2';
 const urlsToCache = [
   '/',
   'https://jhonegalvan.github.io/vmdigital/index.html',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
   'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js',
-  'https://i0001.clarodrive.com/s/gKZKpjynyiAfRo6/download',
-  'https://i0001.clarodrive.com/s/pmqaf478t5cdwSf/download',
-  'https://i0001.clarodrive.com/s/b945FksDjqj4PR4/download',
-  'https://i0001.clarodrive.com/s/tPsXiyQJ934Q2rp/download'
+  'https://i0001.clarodrive.com/s/fjZLZWjMwJ6DsMo/download/style.css',
+  'https://i0001.clarodrive.com/s/T4bS79aGrFR5YTN/download/lunaradio-animado.js',
+  'https://i0001.clarodrive.com/s/bYCHBzdn8NDPrE8/download/adlogo.png',
+  'https://i0001.clarodrive.com/s/YMZzNbEAgg5iXHE/download/fallback.php'
 ];
 
 self.addEventListener('install', event => {
