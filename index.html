@@ -7,13 +7,13 @@
   <title>Añoranza Digital</title>
   
   <!-- PWA manifest -->
-  <link rel="manifest" href="https://jhonegalvan.github.io/radio.github.io/manifest.json">
+  <link rel="manifest" href="https://jhonegalvan.github.io/vmdigital/manifest.json">
   
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Añoranza Digital">
-  <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+  <link rel="apple-touch-icon" href="https://jhonegalvan.github.io/vmdigital/icons/icon-152x152.png">
   
   <!-- CSS -->
   <link href="https://i0001.clarodrive.com/s/gKZKpjynyiAfRo6/download" rel="stylesheet">
@@ -195,7 +195,7 @@
     // Register Service Worker
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('https://jhonegalvan.github.io/vmdigital/sw.js')
           .then(registration => {
             console.log('ServiceWorker registration successful');
           })
