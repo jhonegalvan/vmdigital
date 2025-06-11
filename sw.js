@@ -1,7 +1,7 @@
-const CACHE_NAME = 'like-radio-v1';
+const CACHE_NAME = 'vm-digital-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
+  'https://jhonegalvan.github.io/vmdigital/index.html',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
   'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js',
   'https://i0001.clarodrive.com/s/gKZKpjynyiAfRo6/download',
